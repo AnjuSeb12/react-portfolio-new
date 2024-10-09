@@ -92,9 +92,9 @@ const Contact = () => {
           </button>
         </form>
         <p className="mt-6 text-center text-white">Email: <a href="mailto:christeenaanju@example.com" className="text-white hover:underline">christeenaanju@example.com</a></p>
-        <p className="text-center text-white">
-          LinkedIn: <a href="https://linkedin.com/in/yourprofile" className="text-white hover:underline">LinkedIn Profile</a>
-        </p>
+        {/* <p className="text-center text-white">
+          LinkedIn: <a href="https://www.linkedin.com/in/anju-sebastian-vs" className="text-white hover:underline">LinkedIn Profile</a>
+        </p> */}
       </div>
     </section>
   );
