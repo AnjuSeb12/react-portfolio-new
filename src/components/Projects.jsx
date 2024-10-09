@@ -47,7 +47,7 @@ const Projects = () => {
             <p className="mb-4">Personal Project - Showcasing my projects and skills.</p>
             <div className="flex flex-col space-y-2">
               <a 
-                href="https://example.com" 
+                href="https://portfolio-anju.netlify.app/" 
                 className="text-blue-400 hover:underline"
                 target="_blank" 
                 rel="noopener noreferrer"
@@ -79,7 +79,7 @@ const Projects = () => {
             <p className="mb-4">This project focuses on designing the user front page of an e-commerce website with a responsive and user-friendly layout. Utilizing HTML, CSS, and JavaScript, it showcases products in an engaging manner while enhancing user experience through interactivity and visual appeal.</p>
             <div className="flex flex-col space-y-2">
               <a 
-                href="https://example.com" 
+                href="https://anjuseb12.github.io/Watch-Ecommerce-new-tem/" 
                 className="text-blue-400 hover:underline"
                 target="_blank" 
                 rel="noopener noreferrer"
