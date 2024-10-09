@@ -1,6 +1,6 @@
 import React from 'react';
-import { motion } from 'framer-motion'; // Import Framer Motion for animations
-import resumeFile from "../../src/assets/resume.pdf"; // Replace with the path to your resume file
+import { motion } from 'framer-motion';
+import resumeFile from "../../src/assets/resume.pdf";
 
 const About = () => {
   return (
@@ -8,7 +8,7 @@ const About = () => {
       <div className="container mx-auto px-4 flex flex-col md:flex-row items-center">
         <div className="md:w-1/2">
           <motion.h2 
-            className="text-3xl font-bold text-pink-800 mb-4" // Changed text color to dark pink for contrast
+            className="text-3xl font-bold text-pink-800 mb-4"
             initial={{ opacity: 0, y: -20 }} 
             animate={{ opacity: 1, y: 0 }} 
             transition={{ duration: 0.5 }}
@@ -16,7 +16,7 @@ const About = () => {
             About Me
           </motion.h2>
           <motion.p 
-            className="text-white mb-4" // Changed text color for better visibility
+            className="text-white mb-4" 
             initial={{ opacity: 0, y: 20 }} 
             animate={{ opacity: 1, y: 0 }} 
             transition={{ duration: 0.5 }}
@@ -25,7 +25,7 @@ const About = () => {
           </motion.p>
           <div className="flex space-x-4">
             <a 
-              href="https://github.com/AnjuSeb12" // Replace with your GitHub profile link
+              href="https://github.com/AnjuSeb12"
               className="text-pink-800 hover:underline"
               target="_blank" 
               rel="noopener noreferrer"
@@ -33,7 +33,7 @@ const About = () => {
               GitHub
             </a>
             <a 
-              href="https://www.linkedin.com/in/anju-sebastian-vs" // Replace with your LinkedIn profile link
+              href="https://www.linkedin.com/in/anju-sebastian-vs" 
               className="text-pink-800 hover:underline"
               target="_blank" 
               rel="noopener noreferrer"
