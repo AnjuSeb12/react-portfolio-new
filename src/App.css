@@ -1,0 +1,15 @@
+/* src/App.css */
+@keyframes slide {
+  0% { background-position: 0 0; }
+  100% { background-position: 100% 100%; }
+}
+
+body {
+  background: linear-gradient(45deg, #007cf0, #00dfd8);
+  background-size: 400% 400%;
+  animation: slide 15s ease infinite;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
