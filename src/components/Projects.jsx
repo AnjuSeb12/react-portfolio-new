@@ -6,13 +6,13 @@ const Projects = () => {
       <div className="container mx-auto px-4">
         <h2 className="text-3xl font-bold text-center text-pink-800 mb-8">Projects</h2>
         
-        {/* Responsive Grid for Projects */}
+
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
           
-          {/* Project 1 - ShopyTrends */}
-          <div className="project bg-white p-6 rounded-lg shadow-md transform transition-transform duration-300 hover:scale-105 hover:shadow-lg">
-            <h3 className="text-xl font-semibold mb-2 text-gray-700">ShopyTrends</h3>
-            <p className="mb-4 text-gray-700">Capstone Project - E-commerce Shopping Website</p>
+       
+          <div className="project bg-white text-gray-700 p-6 rounded-lg shadow-md transform transition-transform duration-300 hover:scale-105 hover:shadow-lg">
+            <h3 className="text-xl font-semibold mb-2">ShopyTrends</h3>
+            <p className="mb-4">ShopyTrends is an e-commerce platform focused on dress shopping, featuring responsive design and seamless navigation. It includes User, Seller, and Admin modules, utilizing React.js, Tailwind CSS, and Redux for the frontend, with Express.js and MongoDB for the backend. The project is deployed on Netlify and Render, with Cloudinary for image storage.</p>
             <div className="flex flex-col space-y-2">
               <a 
                 href="https://shopytrends.netlify.app/" 
@@ -41,10 +41,10 @@ const Projects = () => {
             </div>
           </div>
 
-          {/* Project 2 - Now Doing */}
-          <div className="project bg-white p-6 rounded-lg shadow-md transform transition-transform duration-300 hover:scale-105 hover:shadow-lg">
-            <h3 className="text-xl font-semibold mb-2 text-gray-700">Now Doing</h3>
-            <p className="mb-4 text-gray-700">Ongoing Project</p>
+         
+          <div className="project bg-white text-gray-700 p-6 rounded-lg shadow-md transform transition-transform duration-300 hover:scale-105 hover:shadow-lg">
+            <h3 className="text-xl font-semibold mb-2">Portfolio</h3>
+            <p className="mb-4">Personal Project - Showcasing my projects and skills.</p>
             <div className="flex flex-col space-y-2">
               <a 
                 href="https://example.com" 
@@ -55,15 +55,15 @@ const Projects = () => {
                 Hosted Link
               </a>
               <a 
-                href="https://github.com/AnjuSeb12/NowDoing"
+                href="https://github.com/AnjuSeb12/react-portfolio-new"
                 className="text-blue-400 hover:underline"
                 target="_blank" 
                 rel="noopener noreferrer"
               >
-                GitHub Code
+                GitHub Frontend Code
               </a>
               <a 
-                href="https://github.com/AnjuSeb12/backend-shopytrends-design-testing"
+                href="https://github.com/AnjuSeb12/backend-portanju"
                 className="text-blue-400 hover:underline"
                 target="_blank" 
                 rel="noopener noreferrer"
@@ -73,10 +73,10 @@ const Projects = () => {
             </div>
           </div>
 
-          {/* Project 3 - Portfolio Website */}
-          <div className="project bg-white p-6 rounded-lg shadow-md transform transition-transform duration-300 hover:scale-105 hover:shadow-lg">
-            <h3 className="text-xl font-semibold mb-2 text-gray-700">Portfolio Website</h3>
-            <p className="mb-4 text-gray-700">Personal Project - Showcasing my projects and skills</p>
+        
+          <div className="project bg-white text-gray-700 p-6 rounded-lg shadow-md transform transition-transform duration-300 hover:scale-105 hover:shadow-lg">
+            <h3 className="text-xl font-semibold mb-2">E-commerce Shopping Site: User Page Design</h3>
+            <p className="mb-4">This project focuses on designing the user front page of an e-commerce website with a responsive and user-friendly layout. Utilizing HTML, CSS, and JavaScript, it showcases products in an engaging manner while enhancing user experience through interactivity and visual appeal.</p>
             <div className="flex flex-col space-y-2">
               <a 
                 href="https://example.com" 
@@ -87,15 +87,7 @@ const Projects = () => {
                 Hosted Link
               </a>
               <a 
-                href="https://github.com/AnjuSeb12/Portfolio"
-                className="text-blue-400 hover:underline"
-                target="_blank" 
-                rel="noopener noreferrer"
-              >
-                GitHub Code
-              </a>
-              <a 
-                href="https://github.com/AnjuSeb12/Portfolio"
+                href="https://github.com/AnjuSeb12/Watch-Ecommerce-new-tem"
                 className="text-blue-400 hover:underline"
                 target="_blank" 
                 rel="noopener noreferrer"
