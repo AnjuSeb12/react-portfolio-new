@@ -45,10 +45,10 @@ const About = () => {
         </div>
         
         <div className="md:w-1/2 mt-8 md:mt-0 flex flex-col items-center">
-          {/* Project Link Element */}
+         
           <h3 className="text-xl font-semibold text-teal-500 mb-2">Capstone Project: ShopyTrends</h3>
           <a 
-            href="https://shopytrends.netlify.app/" // Replace with the actual project link
+            href="https://shopytrends.netlify.app/" 
             className="border border-teal-500 text-teal-500 underline hover:bg-teal-500 hover:text-white text-lg py-2 px-4 rounded transition duration-300"
             target="_blank" 
             rel="noopener noreferrer"
@@ -56,12 +56,12 @@ const About = () => {
             View Project
           </a>
           
-          {/* Resume Download Section */}
+      
           <div className="mt-6">
             <a 
-              href={resumeFile} // Link to the resume file
+              href={resumeFile} 
               className="bg-blue-500 text-teal-500 py-2 px-4 rounded-md hover:bg-blue-500 transition duration-300"
-              download // This attribute prompts a download
+              download 
             >
               Download Resume
             </a>

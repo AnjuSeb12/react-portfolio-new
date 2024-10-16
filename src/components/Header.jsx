@@ -8,7 +8,7 @@ const Header = () => {
     setIsMenuOpen(!isMenuOpen);
   };
 
-  // Fade-in effect for the header when the component mounts
+
   useEffect(() => {
     setIsHeaderVisible(true);
   }, []);

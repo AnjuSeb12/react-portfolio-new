@@ -9,7 +9,7 @@ const Skills = () => {
         </h2>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-          {/* Frontend Development */}
+     
           <div className="skill-card transition-transform duration-300 hover:scale-105 max-w-xs mx-auto bg-gradient-to-r from-green-900 to-blue-500 text-white p-8 rounded-lg shadow-lg">
             <h3 className="text-xl sm:text-2xl lg:text-3xl font-semibold mb-4 text-blue-400">
               Frontend Development
@@ -19,7 +19,7 @@ const Skills = () => {
             </p>
           </div>
 
-          {/* Backend Development */}
+      
           <div className="skill-card transition-transform duration-300 hover:scale-105 max-w-xs mx-auto bg-gradient-to-r from-green-900 to-blue-500 text-white p-8 rounded-lg shadow-lg">
             <h3 className="text-xl sm:text-2xl lg:text-3xl font-semibold mb-4 text-blue-400">
               Backend Development
@@ -29,7 +29,7 @@ const Skills = () => {
             </p>
           </div>
 
-          {/* Database */}
+       
           <div className="skill-card transition-transform duration-300 hover:scale-105 max-w-xs mx-auto bg-gradient-to-r from-green-900 to-blue-500 text-white p-8 rounded-lg shadow-lg">
             <h3 className="text-xl sm:text-2xl lg:text-3xl font-semibold mb-4 text-blue-400">
               Database
@@ -39,7 +39,6 @@ const Skills = () => {
             </p>
           </div>
 
-          {/* Version Control */}
           <div className="skill-card transition-transform duration-300 hover:scale-105 max-w-xs mx-auto bg-gradient-to-r from-green-900 to-blue-500 text-white p-8 rounded-lg shadow-lg">
             <h3 className="text-xl sm:text-2xl lg:text-3xl font-semibold mb-4 text-blue-400">
               Version Control
@@ -49,7 +48,7 @@ const Skills = () => {
             </p>
           </div>
 
-          {/* Frameworks & Tools */}
+    
           <div className="skill-card transition-transform duration-300 hover:scale-105 max-w-xs mx-auto bg-gradient-to-r from-green-900 to-blue-500 text-white p-8 rounded-lg shadow-lg">
             <h3 className="text-xl sm:text-2xl lg:text-3xl font-semibold mb-4 text-blue-400">
               Frameworks & Tools
