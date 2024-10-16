@@ -21,7 +21,7 @@ const Contact = () => {
     e.preventDefault();
     
     try {
-      const response = await instance.post('/api/contact', formData);
+      const response = await instance.post('/api/v1/contact', formData);
 
       if (response.status === 200) {
         alert('Message sent successfully!');
