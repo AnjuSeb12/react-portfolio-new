@@ -20,7 +20,9 @@ const Contact = () => {
     e.preventDefault();
     
     try {
-      const response = await axios.post('/api/contact', formData);
+      const response = await axios.post('/api/contact', formData,{
+        withCredentials: true,
+      });
 
       if (response.status === 200) {
         alert('Message sent successfully!');
