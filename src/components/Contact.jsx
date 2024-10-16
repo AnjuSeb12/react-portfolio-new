@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import axios from "../path/to/your/axios/instance";
+import instance from '../../axios';
+
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -20,7 +21,7 @@ const Contact = () => {
     e.preventDefault();
     
     try {
-      const response = await axios.post('/api/contact', formData);
+      const response = await instance.post('/api/contact', formData);
 
       if (response.status === 200) {
         alert('Message sent successfully!');
