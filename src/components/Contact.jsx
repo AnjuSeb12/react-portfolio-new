@@ -1,5 +1,5 @@
-
 import React, { useState } from 'react';
+import axios from "../path/to/your/axios/instance";
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -18,22 +18,13 @@ const Contact = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const apiURL = '/api/contact'; 
-
+    
     try {
-      const response = await fetch(apiURL, {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify(formData),
-      });
+      const response = await axios.post('/api/contact', formData);
 
-      if (response.ok) {
+      if (response.status === 200) {
         alert('Message sent successfully!');
-        // Reset the form
-        setFormData({ name: '', email: '', message: '' });
-      } else {
+        setFormData({ name: '', email: '', message: '' }); 
         alert('Failed to send message.');
       }
     } catch (error) {
@@ -48,39 +39,39 @@ const Contact = () => {
         <h2 className="text-3xl font-bold text-teal-500 text-center mb-8">Contact</h2>
         <form 
           onSubmit={handleSubmit} 
-          className="bg-teal-700 p-6 rounded-lg shadow-md max-w-lg mx-auto" // Changed background to teal
+          className="bg-teal-700 p-6 rounded-lg shadow-md max-w-lg mx-auto"
         >
           <div className="mb-4">
-            <label htmlFor="name" className="block text-white">Name</label> {/* Changed text color to white */}
+            <label htmlFor="name" className="block text-white">Name</label>
             <input 
               type="text" 
               name="name" 
               value={formData.name}
               onChange={handleChange} 
               required 
-              className="border border-gray-300 rounded-md p-2 w-full bg-gray-700 text-white" // Changed input text color to white
+              className="border border-gray-300 rounded-md p-2 w-full bg-gray-700 text-white"
             />
           </div>
           <div className="mb-4">
-            <label htmlFor="email" className="block text-white">Email</label> {/* Changed text color to white */}
+            <label htmlFor="email" className="block text-white">Email</label>
             <input 
               type="email" 
               name="email" 
               value={formData.email}
               onChange={handleChange} 
               required 
-              className="border border-gray-300 rounded-md p-2 w-full bg-gray-700 text-white" // Changed input text color to white
+              className="border border-gray-300 rounded-md p-2 w-full bg-gray-700 text-white"
             />
           </div>
           <div className="mb-4">
-            <label htmlFor="message" className="block text-white">Message</label> {/* Changed text color to white */}
+            <label htmlFor="message" className="block text-white">Message</label>
             <textarea 
               name="message" 
               value={formData.message}
               onChange={handleChange} 
               required 
               rows="4" 
-              className="border border-gray-300 rounded-md p-2 w-full bg-gray-700 text-white" // Changed text color to white
+              className="border border-gray-300 rounded-md p-2 w-full bg-gray-700 text-white"
             />
           </div>
           <button 
