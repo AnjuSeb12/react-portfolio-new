@@ -17,14 +17,33 @@ const Skills = () => {
           <div className="skill-item bg-white p-3 sm:p-4 rounded-lg shadow-md transition-transform transform hover:scale-105">
             Express.js
           </div>
-          <div className="skill-item bg-white p-3 sm:p-4 rounded-lg shadow-md transition-transform transform hover:scale-105">
-            MongoDB
-          </div>
+       
           <div className="skill-item bg-white p-3 sm:p-4 rounded-lg shadow-md transition-transform transform hover:scale-105">
             JavaScript
           </div>
           <div className="skill-item bg-white p-3 sm:p-4 rounded-lg shadow-md transition-transform transform hover:scale-105">
             HTML5 & CSS3
+          </div>
+          <div className="skill-item bg-white p-3 sm:p-4 rounded-lg shadow-md transition-transform transform hover:scale-105">
+           Redux
+          </div>
+          <div className="skill-item bg-white p-3 sm:p-4 rounded-lg shadow-md transition-transform transform hover:scale-105">
+           Recoil
+          </div>
+          <div className="skill-item bg-white p-3 sm:p-4 rounded-lg shadow-md transition-transform transform hover:scale-105">
+          React Bootstrap
+          </div>
+          <div className="skill-item bg-white p-3 sm:p-4 rounded-lg shadow-md transition-transform transform hover:scale-105">
+         Tailwind CSS
+          </div>
+          <div className="skill-item bg-white p-3 sm:p-4 rounded-lg shadow-md transition-transform transform hover:scale-105">
+            MongoDB
+          </div>
+          <div className="skill-item bg-white p-3 sm:p-4 rounded-lg shadow-md transition-transform transform hover:scale-105">
+           MySQL
+          </div>
+          <div className="skill-item bg-white p-3 sm:p-4 rounded-lg shadow-md transition-transform transform hover:scale-105">
+          Git
           </div>
         </div>
       </div>

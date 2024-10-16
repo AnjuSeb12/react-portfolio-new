@@ -75,8 +75,8 @@ const Projects = () => {
 
         
           <div className="project bg-white text-gray-700 p-6 rounded-lg shadow-md transform transition-transform duration-300 hover:scale-105 hover:shadow-lg">
-            <h3 className="text-xl font-semibold mb-2">E-commerce Shopping Site: User Page Design</h3>
-            <p className="mb-4">This project focuses on designing the user front page of an e-commerce website with a responsive and user-friendly layout. Utilizing HTML, CSS, and JavaScript, it showcases products in an engaging manner while enhancing user experience through interactivity and visual appeal.</p>
+            <h3 className="text-xl font-semibold mb-2">TimelyCraft</h3>
+            <p className="mb-4">This project focuses on designing the user front page of an E-Commerce website with a Responsive and user-friendly layout. Utilizing HTML5, CSS3, and JavaScript, it showcases products in an engaging manner while enhancing user experience through interactivity and visual appeal.</p>
             <div className="flex flex-col space-y-2">
               <a 
                 href="https://anjuseb12.github.io/Watch-Ecommerce-new-tem/" 
