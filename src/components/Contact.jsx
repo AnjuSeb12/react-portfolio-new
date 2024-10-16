@@ -120,7 +120,7 @@ const Contact = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const apiURL = '/api/v1/contact'; 
+    const apiURL = '/api/contact'; 
 
     try {
       const response = await fetch(apiURL, {
