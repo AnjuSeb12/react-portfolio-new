@@ -15,7 +15,7 @@ const Skills = () => {
               Frontend Development
             </h3>
             <p className="text-sm">
-              HTML5, CSS3, JavaScript, React.js, Redux (State Management Tool), Recoil, Tailwind CSS, React Bootstrap
+              HTML5, CSS3, JavaScript, React.js, Redux (State Management Tool), Recoil(State Management Tool), Tailwind CSS, React Bootstrap
             </p>
           </div>
 

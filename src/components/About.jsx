@@ -57,7 +57,7 @@ const About = () => {
           </a>
           
       
-          <div className="mt-6">
+          {/* <div className="mt-6">
             <a 
               href={resumeFile} 
               className="bg-blue-500 text-teal-500 py-2 px-4 rounded-md hover:bg-blue-500 transition duration-300"
@@ -65,7 +65,7 @@ const About = () => {
             >
               Download Resume
             </a>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
