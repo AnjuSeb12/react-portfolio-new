@@ -41,6 +41,16 @@ const Skills = () => {
 
           <div className="skill-card transition-transform duration-300 hover:scale-105 max-w-xs mx-auto bg-gradient-to-r from-green-900 to-blue-500 text-white p-8 rounded-lg shadow-lg">
             <h3 className="text-xl sm:text-2xl lg:text-3xl font-semibold mb-4 text-blue-400">
+              Testing
+            </h3>
+            <p className="text-sm">
+            Postman for API testing ,Manual Testing
+            </p>
+          </div>
+          
+
+          <div className="skill-card transition-transform duration-300 hover:scale-105 max-w-xs mx-auto bg-gradient-to-r from-green-900 to-blue-500 text-white p-8 rounded-lg shadow-lg">
+            <h3 className="text-xl sm:text-2xl lg:text-3xl font-semibold mb-4 text-blue-400">
               Version Control
             </h3>
             <p className="text-sm">
@@ -54,9 +64,19 @@ const Skills = () => {
               Frameworks & Tools
             </h3>
             <p className="text-sm">
-              MERN Stack
+              MERN Stack , Postman , Thunder Client
             </p>
           </div>
+
+          <div className="skill-card transition-transform duration-300 hover:scale-105 max-w-xs mx-auto bg-gradient-to-r from-green-900 to-blue-500 text-white p-8 rounded-lg shadow-lg">
+            <h3 className="text-xl sm:text-2xl lg:text-3xl font-semibold mb-4 text-blue-400">
+              Deployment
+            </h3>
+            <p className="text-sm">
+            Netlify , Render
+            </p>
+          </div>
+
           <div className="skill-card transition-transform duration-300 hover:scale-105 max-w-xs mx-auto bg-gradient-to-r from-green-900 to-blue-500 text-white p-8 rounded-lg shadow-lg">
             <h3 className="text-xl sm:text-2xl lg:text-3xl font-semibold mb-4 text-blue-400">
              Media Management
@@ -65,6 +85,15 @@ const Skills = () => {
             Cloudinary
             </p>
           </div>
+          <div className="skill-card transition-transform duration-300 hover:scale-105 max-w-xs mx-auto bg-gradient-to-r from-green-900 to-blue-500 text-white p-8 rounded-lg shadow-lg">
+            <h3 className="text-xl sm:text-2xl lg:text-3xl font-semibold mb-4 text-blue-400">
+              Soft Skills
+            </h3>
+            <p className="text-sm">
+            Communication , Time Management , Problem-Solving , Adaptability , Collaboration and Feedback Integration , Debugging and Troubleshooting , Self-Directed Project Management , Team Work
+            </p>
+          </div>
+
         </div>
       </div>
     </section>
